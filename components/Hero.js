@@ -3,7 +3,7 @@ import OverlappingCharacter from "./OverlappingCharacter";
 
 export default function Hero() {
   return (
-    <div className="w-full h-full pl-[15%] pr-[10%] md:pl-[12%] md:pr-[10%] lg:px-[12%] overflow-auto grid md:grid-cols-[auto_1fr] md:justify-between sm:items-center gap-10">
+    <div className="w-full h-full pl-[15%] pr-[10%] md:pl-[12%] md:pr-[10%] lg:px-[12%] overflow-auto grid md:grid-cols-[auto_1fr] md:justify-between sm:items-center gap-7 sm:gap-10">
       <div>
         <div className="text-white text-lg sm:text-4xl mb-2 sm:mb-6">
           Hi, I am
