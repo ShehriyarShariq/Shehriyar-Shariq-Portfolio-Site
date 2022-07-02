@@ -1,7 +1,12 @@
-function Home() {
+import React from "react";
+import Background from "../components/Background";
+
+function PortfolioSite() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-500">Hello world!</h1>
+    <div>
+      <Background />
+    </div>
   );
 }
 
-export default Home;
+export default PortfolioSite;
