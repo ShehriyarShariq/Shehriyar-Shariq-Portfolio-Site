@@ -9,7 +9,7 @@ function PortfolioSite() {
         <Nav />
         <Hero />
       </div>
-      <div className="h-[1000px] w-full bg-white"></div>
+      <div className="h-[1000px] w-full bg-transparent"></div>
     </div>
   );
 }
