@@ -1,10 +1,10 @@
 import React from "react";
-import Background from "../components/Background";
+import Nav from "../components/Nav";
 
 function PortfolioSite() {
   return (
-    <div>
-      <Background />
+    <div className="w-full h-full relative z-10">
+      <Nav />
     </div>
   );
 }

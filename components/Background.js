@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 function Background() {
   //   const size = useWindowSize();
-  const particleCount = 20;
+  const particleCount = 10;
   const colors = ["#05FDD888", "#FD215588"];
   const canvas = useRef(null);
   const requestIdRef = useRef(null);
@@ -107,8 +107,8 @@ function Background() {
         this.radius
     );
     this.color = colors[Math.floor(Math.random() * colors.length)];
-    this.speedx = Math.round(Math.random() * 201 + 0) / 100;
-    this.speedy = Math.round(Math.random() * 201 + 0) / 100;
+    this.speedx = Math.round(Math.random() * 51 + 0) / 100;
+    this.speedy = Math.round(Math.random() * 51 + 0) / 100;
 
     switch (Math.round(Math.random() * colors.length)) {
       case 1:
@@ -177,9 +177,10 @@ function Background() {
   }
 
   return (
-    <div>
-      <canvas ref={canvas} className="w-screen h-screen m-0"></canvas>
-    </div>
+    <canvas
+      ref={canvas}
+      className="w-screen h-full m-0 absolute top-0 hidden sm:block"
+    ></canvas>
   );
 }
 

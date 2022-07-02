@@ -1,11 +1,15 @@
 import Meta from "./Meta";
 import { withRouter } from "next/router";
+import Background from "./Background";
 
 const Layout = ({ children, router }) => {
   return (
     <>
       <Meta />
-      {children}
+      <div className="relative">
+        <Background />
+        {children}
+      </div>
     </>
   );
 };
