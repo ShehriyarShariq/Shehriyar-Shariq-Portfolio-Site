@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
-// import { useWindowSize } from "../hooks/useWindowSize";
+import { useWindowSize } from "../hooks/useWindowSize";
 
 function Background() {
-  //   const size = useWindowSize();
-  const particleCount = 10;
+  const size = useWindowSize();
+  const particleCount = 20;
   const colors = ["#05FDD888", "#FD215588"];
   const canvas = useRef(null);
   const requestIdRef = useRef(null);
@@ -33,8 +33,8 @@ function Background() {
       canvas.current.width,
       canvas.current.height
     );
-    // canvas.current.height = size.height;
-    // canvas.current.width = size.width;
+    canvas.current.height = size.height;
+    canvas.current.width = size.width;
 
     dpi.current = window.devicePixelRatio || 1;
     context.current.scale(dpi.current, dpi.current);
@@ -52,7 +52,7 @@ function Background() {
     return () => {
       cancelAnimationFrame(requestIdRef.current);
     };
-  }, []);
+  }, [size]);
 
   const animate = () => {
     if (!canvas.current || !context.current) return;
