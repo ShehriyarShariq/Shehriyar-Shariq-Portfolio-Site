@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import About from "../components/About";
+import MyWork from "../components/MyWork";
 
 function PortfolioSite() {
   return (
@@ -11,6 +12,7 @@ function PortfolioSite() {
         <Hero />
       </div>
       <About />
+      <MyWork />
       <div className="h-[1000px] w-full bg-transparent"></div>
     </div>
   );

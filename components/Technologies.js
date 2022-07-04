@@ -76,7 +76,7 @@ function Technologies() {
   return (
     <div
       className={
-        "w-full bg-transparent_gray px-4 md:px-6 lg:px-10 pt-3 md:pt-8 md:pb-7 " +
+        "w-full bg-transparent_gray px-4 md:px-6 lg:px-10 pt-3 md:pt-8 md:pb-7 bg-opacity-20 backdrop-blur-md" +
         (isExpanded ? "pb-12" : " pb-3")
       }
       onClick={() => {
