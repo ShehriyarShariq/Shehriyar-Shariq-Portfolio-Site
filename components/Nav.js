@@ -6,7 +6,7 @@ const navItemCss =
 export default function Nav() {
   return (
     <header className="h-[50px] sm:h-[120px] flex flex-row justify-between px-[8%] sm:px-[5%] mt-[20px] sm:mt-[50px] items-center">
-      <img src="/images/logo.svg" className="h-full select-none" />
+      <img src="/images/logo.svg" className="h-full sm:h-3/4 select-none" />
       <nav className="hidden md:flex gap-14 flex-row items-center">
         <span className={navItemCss}>About</span>
         <span className={navItemCss}>Skills</span>

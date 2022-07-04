@@ -11,6 +11,7 @@ module.exports = {
         primary: "#05FDD8",
         secondary: "#FD2155",
         secondary_hovered: "#b1153a",
+        transparent_gray: "#D9D9D911",
       },
     },
   },
