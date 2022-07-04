@@ -1,10 +1,38 @@
 import React from "react";
 import OverlappingCharacter from "./OverlappingCharacter";
+import BigProjectItem from "./BigProjectItem";
+
+const MAIN_PROJECTS = [
+  {
+    id: "ghirasti",
+    title: "Ghirasti",
+    tagLine: "Lorem ipsum dolor sit amet",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    images: {
+      logo: "/images/projects/ghirasti/logo.png",
+      tile: "/images/projects/ghirasti/tile.png",
+    },
+    technologies: ["Flutter", "Firebase", "Phone Auth"],
+  },
+  {
+    id: "ghirasti",
+    title: "Ghirasti",
+    tagLine: "Lorem ipsum dolor sit amet",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    images: {
+      logo: "/images/projects/ghirasti/logo.png",
+      tile: "/images/projects/ghirasti/tile.png",
+    },
+    technologies: ["Flutter", "Firebase", "Phone Auth"],
+  },
+];
 
 function MyWork() {
   return (
-    <div className="w-full h-full px-[8%] md:px-[10%] mt-0 sm:mt-24">
-      <div className="text-3xl sm:text-5xl text-center sm:text-left mb-6 sm:mb-8">
+    <div className="w-full h-full px-[8%] md:px-[10%] mt-0 md:mt-24">
+      <div className="text-3xl sm:text-5xl text-center sm:text-left mb-6 sm:mb-10">
         <span className="text-primary whitespace-nowrap">
           <OverlappingCharacter
             char="M"
@@ -19,6 +47,15 @@ function MyWork() {
           />
           ork
         </span>
+      </div>
+      <div className="flex flex-col gap-6 md:gap-14 lg:gap-20">
+        {MAIN_PROJECTS.map((project, index) => (
+          <BigProjectItem
+            key={`main_project_${index}`}
+            isLeftAligned={index % 2 == 0}
+            project={project}
+          />
+        ))}
       </div>
     </div>
   );
