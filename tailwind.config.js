@@ -12,6 +12,8 @@ module.exports = {
         secondary: "#FD2155",
         secondary_hovered: "#b1153a",
         transparent_gray: "#D9D9D911",
+        translucent_gray: "#4D4D4D99",
+        black_alt: "#1d1d1d",
       },
     },
   },

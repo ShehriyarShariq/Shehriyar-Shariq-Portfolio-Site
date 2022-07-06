@@ -29,6 +29,7 @@ export default function Hero() {
           <br className="sm:hidden" />
           Mobile
           <br className="hidden sm:block" />
+          <span className="sm:hidden"> </span>
           Developer
         </div>
         <div className="flex flex-row gap-4 sm:gap-8">
