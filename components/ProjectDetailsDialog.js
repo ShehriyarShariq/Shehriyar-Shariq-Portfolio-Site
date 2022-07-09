@@ -76,7 +76,9 @@ function ProjectDetailsDialog({ details, hide }) {
               </div>
             ))}
           </div>
-          <p className="text-white py-5 md:py-8">{details["description"]}</p>
+          <p className="text-white py-5 md:py-8 text-lg">
+            {details["description"]}
+          </p>
           <div className="w-full relative">
             <ResponsiveContainer
               carouselRef={imagesRef}
