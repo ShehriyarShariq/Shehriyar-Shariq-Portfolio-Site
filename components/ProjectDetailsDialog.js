@@ -124,7 +124,7 @@ function ProjectDetailsDialog({ details, hide }) {
   );
 }
 
-export const Card = React.memo(function (props) {
+const Card = React.memo(function (props) {
   const { data, dataIndex } = props;
   const { cover } = data[dataIndex];
   return (
@@ -149,5 +149,7 @@ export const Card = React.memo(function (props) {
     </div>
   );
 });
+
+Card.displayName = "Card";
 
 export default ProjectDetailsDialog;
