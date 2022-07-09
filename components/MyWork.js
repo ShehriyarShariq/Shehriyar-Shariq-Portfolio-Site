@@ -9,9 +9,16 @@ const MAIN_PROJECTS = [
     tagLine: "Lorem ipsum dolor sit amet",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    video: "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
     images: {
       logo: "/images/projects/ghirasti/logo.png",
       tile: "/images/projects/ghirasti/tile.png",
+      otherImages: [
+        "/images/projects/ghirasti/tile.png",
+        "/images/projects/ghirasti/tile.png",
+        "/images/projects/ghirasti/tile.png",
+        "/images/projects/ghirasti/tile.png",
+      ],
     },
     technologies: ["Flutter", "Firebase", "Phone Auth"],
   },
@@ -21,9 +28,16 @@ const MAIN_PROJECTS = [
     tagLine: "Lorem ipsum dolor sit amet",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    video: "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
     images: {
       logo: "/images/projects/ghirasti/logo.png",
       tile: "/images/projects/ghirasti/tile.png",
+      otherImages: [
+        "/images/projects/ghirasti/tile.png",
+        "/images/projects/ghirasti/tile.png",
+        "/images/projects/ghirasti/tile.png",
+        "/images/projects/ghirasti/tile.png",
+      ],
     },
     technologies: ["Flutter", "Firebase", "Phone Auth"],
   },
