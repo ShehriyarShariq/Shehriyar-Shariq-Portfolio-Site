@@ -1,12 +1,16 @@
 import React from "react";
+import { useProjectDetailsDialog } from "../contexts/ProjectDetailsDialogContext";
 
 function BigProjectItem({ isLeftAligned, project }) {
+  const { showProjectDetails } = useProjectDetailsDialog();
+
   return (
     <div
       className={
         "w-full md:min-h-[400px] flex flex-col md:flex-row justify-between" +
         (isLeftAligned ? "" : " md:flex-row-reverse ")
       }
+      onClick={() => showProjectDetails(project)}
     >
       <div
         className={

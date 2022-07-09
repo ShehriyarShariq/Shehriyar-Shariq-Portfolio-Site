@@ -1,6 +1,9 @@
 import React from "react";
+import { useProjectDetailsDialog } from "../contexts/ProjectDetailsDialogContext";
 
 function RegularProjectItem({ isLeftAligned, project }) {
+  const { showProjectDetails } = useProjectDetailsDialog();
+
   return (
     <div
       className={
@@ -8,6 +11,7 @@ function RegularProjectItem({ isLeftAligned, project }) {
         (isLeftAligned ? "" : " md:flex-row-reverse ")
       }
       onTouchStart={() => {}}
+      onClick={() => showProjectDetails(project)}
     >
       <div className="w-full h-full absolute top-0 left-0">
         <div className="w-full h-full bg-transparent_gray bg-opacity-10 backdrop-blur-sm flex flex-col justify-between items-center">

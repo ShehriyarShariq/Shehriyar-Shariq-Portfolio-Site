@@ -2,10 +2,13 @@ import Meta from "./Meta";
 import { withRouter } from "next/router";
 import Background from "./Background";
 import { SidebarNavVisibilityProvider } from "../contexts/SidebarNavVisibilityContext";
+import { ProjectDetailsDialogProvider } from "../contexts/ProjectDetailsDialogContext";
 
 const Providers = ({ children }) => {
   return (
-    <SidebarNavVisibilityProvider>{children}</SidebarNavVisibilityProvider>
+    <ProjectDetailsDialogProvider>
+      <SidebarNavVisibilityProvider>{children}</SidebarNavVisibilityProvider>
+    </ProjectDetailsDialogProvider>
   );
 };
 

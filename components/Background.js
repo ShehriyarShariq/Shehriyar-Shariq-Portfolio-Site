@@ -3,7 +3,7 @@ import { useWindowSize } from "../hooks/useWindowSize";
 
 function Background() {
   const size = useWindowSize();
-  const particleCount = 40;
+  const particleCount = 60;
   const colors = ["#05FDD888", "#FD215588"];
   const canvas = useRef(null);
   const requestIdRef = useRef(null);
