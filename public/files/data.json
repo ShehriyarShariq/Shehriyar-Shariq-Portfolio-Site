@@ -1,0 +1,188 @@
+{
+  "technologies": [
+    {
+      "label": "Front End",
+      "subCategories": [
+        {
+          "label": "Web",
+          "items": [
+            "React.js",
+            "Next.js",
+            "Tailwind CSS",
+            "Django Web Framework",
+            "Bootstrap",
+            "JQuery",
+            "SCSS"
+          ]
+        },
+        {
+          "label": "Mobile",
+          "items": ["Flutter (Cross-Platform)", "Android Native (Java)"]
+        },
+        {
+          "label": "Languages",
+          "items": ["HTML", "CSS", "Javascript"]
+        }
+      ]
+    },
+    {
+      "label": "Back End",
+      "subCategories": [
+        {
+          "label": null,
+          "items": [
+            "Django Rest Framework",
+            "Node.js/Express.js",
+            "Web Servers",
+            "Web Scraping",
+            "MySQL",
+            "PostgreSQL",
+            "Firebase (All Core Service)"
+          ]
+        },
+        {
+          "label": "Cloud",
+          "items": ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)"]
+        },
+        {
+          "label": "Languages",
+          "items": ["Javascript", "Python"]
+        }
+      ]
+    },
+    {
+      "label": "Dev Tools",
+      "subCategories": [
+        {
+          "label": null,
+          "items": [
+            "VSCode",
+            "Android Studio",
+            "Docker",
+            "Kubernetes",
+            "Git/Github/Gitlab",
+            "Terminal"
+          ]
+        }
+      ]
+    }
+  ],
+  "major_projects": [
+    {
+      "id": "ghirasti",
+      "title": "Ghirasti",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
+      "images": {
+        "logo": "/images/projects/ghirasti/logo.png",
+        "tile": "/images/projects/ghirasti/tile.png",
+        "otherImages": [
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png"
+        ]
+      },
+      "technologies": ["Flutter", "Firebase", "Phone Auth"]
+    },
+    {
+      "id": "ghirasti",
+      "title": "Ghirasti",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
+      "images": {
+        "logo": "/images/projects/ghirasti/logo.png",
+        "tile": "/images/projects/ghirasti/tile.png",
+        "otherImages": [
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png"
+        ]
+      },
+      "technologies": ["Flutter", "Firebase", "Phone Auth"]
+    }
+  ],
+  "other_projects": [
+    {
+      "title": "Ghirasti",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
+      "images": {
+        "logo": "/images/projects/ghirasti/logo.png",
+        "tile": "/images/projects/ghirasti/tile.png",
+        "otherImages": [
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png"
+        ]
+      },
+      "technologies": ["Flutter", "Firebase", "Phone Auth"]
+    },
+    {
+      "title": "Ghirasti",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
+      "images": {
+        "logo": "/images/projects/ghirasti/logo.png",
+        "tile": "/images/projects/ghirasti/tile.png",
+        "otherImages": [
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png"
+        ]
+      },
+      "technologies": ["Flutter", "Firebase", "Phone Auth"]
+    },
+    {
+      "title": "Ghirasti",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
+      "images": {
+        "logo": "/images/projects/ghirasti/logo.png",
+        "tile": "/images/projects/ghirasti/tile.png",
+        "otherImages": [
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png"
+        ]
+      },
+      "technologies": ["Flutter", "Firebase", "Phone Auth"]
+    },
+    {
+      "title": "Ghirasti",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
+      "images": {
+        "logo": "/images/projects/ghirasti/logo.png",
+        "tile": "/images/projects/ghirasti/tile.png",
+        "otherImages": [
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png",
+          "/images/projects/ghirasti/tile.png"
+        ]
+      },
+      "technologies": ["Flutter", "Firebase", "Phone Auth"]
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": "blog_jazz_cash_payment_gateway",
+      "title": "JazzCash Payment Gateway",
+      "tagLine": "Lorem ipsum dolor sit amet",
+      "description": "To implement third-party payment gateways which do not natively support flutter by means of platform-specific code using Platform Channels in Flutter.",
+      "image": "/images/posts/jazz_cash_payment_gateway.png",
+      "link": "https://medium.com/flutter-by-wajahat-shehriyar/flutter-payment-gateway-integration-jazzcash-redirect-api-using-platform-channels-d56f3cbb9a21"
+    }
+  ]
+}

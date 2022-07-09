@@ -1,88 +1,14 @@
 import React, { useState, useMemo } from "react";
 import Filters from "./Filters";
 import RegularProjectItem from "./RegularProjectItem";
-
-const MORE_PROJECTS = [
-  {
-    title: "Ghirasti",
-    tagLine: "Lorem ipsum dolor sit amet",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    video: "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-    images: {
-      logo: "/images/projects/ghirasti/logo.png",
-      tile: "/images/projects/ghirasti/tile.png",
-      otherImages: [
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-      ],
-    },
-    technologies: ["Flutter", "Firebase", "Phone Auth"],
-  },
-  {
-    title: "Ghirasti",
-    tagLine: "Lorem ipsum dolor sit amet",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    video: "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-    images: {
-      logo: "/images/projects/ghirasti/logo.png",
-      tile: "/images/projects/ghirasti/tile.png",
-      otherImages: [
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-      ],
-    },
-    technologies: ["Flutter", "Firebase", "Phone Auth"],
-  },
-  {
-    title: "Ghirasti",
-    tagLine: "Lorem ipsum dolor sit amet",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    video: "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-    images: {
-      logo: "/images/projects/ghirasti/logo.png",
-      tile: "/images/projects/ghirasti/tile.png",
-      otherImages: [
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-      ],
-    },
-    technologies: ["Flutter", "Firebase", "Phone Auth"],
-  },
-  {
-    title: "Ghirasti",
-    tagLine: "Lorem ipsum dolor sit amet",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    video: "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-    images: {
-      logo: "/images/projects/ghirasti/logo.png",
-      tile: "/images/projects/ghirasti/tile.png",
-      otherImages: [
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-        "/images/projects/ghirasti/tile.png",
-      ],
-    },
-    technologies: ["Flutter", "Firebase", "Phone Auth"],
-  },
-];
+import DATA from "../public/files/data.json";
 
 function MoreProjects() {
   const [selectedFilters, setSelectedFilters] = useState([]);
 
   const technologiesForFilter = useMemo(() => {
     let technologies = new Set();
-    MORE_PROJECTS.forEach((project) => {
+    DATA["other_projects"].forEach((project) => {
       project["technologies"].forEach((techStack) => {
         technologies.add(techStack);
       });
@@ -111,7 +37,7 @@ function MoreProjects() {
         technologies={technologiesForFilter}
       />
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-2 mt-4">
-        {MORE_PROJECTS.map((project, index) => (
+        {DATA["other_projects"].map((project, index) => (
           <RegularProjectItem
             key={`regular_project_${index}`}
             isLeftAligned={index % 2 == 0}

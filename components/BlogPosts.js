@@ -1,6 +1,7 @@
 import React from "react";
 import OverlappingCharacter from "./OverlappingCharacter";
 import BlogPost from "./BlogPost";
+import DATA from "../public/files/data.json";
 
 const POSTS = [
   {
@@ -34,7 +35,7 @@ function BlogPosts() {
         </span>
       </div>
       <div className="flex flex-col gap-6 md:gap-14 lg:gap-20">
-        {POSTS.map((post) => (
+        {DATA["blog_posts"].map((post) => (
           <BlogPost key={post["id"]} post={post} />
         ))}
       </div>

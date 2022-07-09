@@ -1,6 +1,7 @@
 import React from "react";
 import OverlappingCharacter from "./OverlappingCharacter";
 import BigProjectItem from "./BigProjectItem";
+import DATA from "../public/files/data.json";
 
 const MAIN_PROJECTS = [
   {
@@ -63,7 +64,7 @@ function MyWork() {
         </span>
       </div>
       <div className="flex flex-col gap-6 md:gap-14 lg:gap-20">
-        {MAIN_PROJECTS.map((project, index) => (
+        {DATA["major_projects"].map((project, index) => (
           <BigProjectItem
             key={`main_project_${index}`}
             isLeftAligned={index % 2 == 0}

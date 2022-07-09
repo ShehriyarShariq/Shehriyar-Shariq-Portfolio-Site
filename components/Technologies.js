@@ -1,74 +1,6 @@
 import React, { useState } from "react";
 import TechStackColumn from "./TechStackColumn";
-
-const TECHNOLOGIES = [
-  {
-    label: "Front End",
-    subCategories: [
-      {
-        label: "Web",
-        items: [
-          "React.js",
-          "Next.js",
-          "Tailwind CSS",
-          "Django Web Framework",
-          "Bootstrap",
-          "JQuery",
-          "SCSS",
-        ],
-      },
-      {
-        label: "Mobile",
-        items: ["Flutter (Cross-Platform)", "Android Native (Java)"],
-      },
-      {
-        label: "Languages",
-        items: ["HTML", "CSS", "Javascript"],
-      },
-    ],
-  },
-  {
-    label: "Back End",
-    subCategories: [
-      {
-        label: null,
-        items: [
-          "Django Rest Framework",
-          "Node.js/Express.js",
-          "Web Servers",
-          "Web Scraping",
-          "MySQL",
-          "PostgreSQL",
-          "Firebase (All Core Service)",
-        ],
-      },
-      {
-        label: "Cloud",
-        items: ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)"],
-      },
-      {
-        label: "Languages",
-        items: ["Javascript", "Python"],
-      },
-    ],
-  },
-  {
-    label: "Dev Tools",
-    subCategories: [
-      {
-        label: null,
-        items: [
-          "VSCode",
-          "Android Studio",
-          "Docker",
-          "Kubernetes",
-          "Git/Github/Gitlab",
-          "Terminal",
-        ],
-      },
-    ],
-  },
-];
+import DATA from "../public/files/data.json";
 
 function Technologies() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -100,11 +32,11 @@ function Technologies() {
         </div>
       </div>
       <div className={"md:grid grid-cols-3" + (isExpanded ? "" : " hidden ")}>
-        {TECHNOLOGIES.map((techStack, index) => (
+        {DATA["technologies"].map((techStack, index) => (
           <TechStackColumn
             key={`tech_stack_${index}`}
             techStack={techStack}
-            hasDivider={index < TECHNOLOGIES.length - 1}
+            hasDivider={index < DATA["technologies"].length - 1}
           />
         ))}
       </div>
