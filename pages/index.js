@@ -5,6 +5,9 @@ import Nav from "../components/Nav";
 import About from "../components/About";
 import MyWork from "../components/MyWork";
 import MoreProjects from "../components/MoreProjects";
+import BlogPosts from "../components/BlogPosts";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 function PortfolioSite() {
@@ -40,7 +43,9 @@ function PortfolioSite() {
       <About />
       <MyWork />
       <MoreProjects />
-      <div className="h-[1000px] w-full bg-transparent"></div>
+      <BlogPosts />
+      <Contact />
+      <Footer />
       {isScrollToTopButtonVisible ? <ScrollToTopBtn /> : <></>}
     </div>
   );

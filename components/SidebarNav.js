@@ -15,10 +15,10 @@ function SidebarNav() {
         <div>
           <img src="/images/logo.svg" className="w-[60%] ml-4 mt-6" />
         </div>
-        <div className="w-full h-full bg-black_alt pointer-events-auto py-9 px-12">
+        <div className="w-full h-full bg-black_alt pointer-events-auto py-10 px-12">
           <img
             src="/images/icons/close.svg"
-            className="w-7 mr-0 ml-auto"
+            className="w-6 mr-0 ml-auto"
             onClick={toggleSidebar}
           />
           <nav className="flex gap-7 flex-col mt-14">

@@ -179,7 +179,7 @@ function Background() {
   return (
     <canvas
       ref={canvas}
-      className="w-screen h-full m-0 absolute top-0 hidden sm:block"
+      className="w-full h-full m-0 absolute top-0 hidden sm:block"
     ></canvas>
   );
 }
