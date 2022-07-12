@@ -77,12 +77,12 @@
       "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
       "images": {
         "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.png",
+        "tile": "/images/projects/ghirasti/tile.webp",
         "otherImages": [
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png"
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp"
         ]
       },
       "technologies": ["Flutter", "Firebase", "Phone Auth"]
@@ -95,12 +95,12 @@
       "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
       "images": {
         "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.png",
+        "tile": "/images/projects/ghirasti/tile.webp",
         "otherImages": [
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png"
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp"
         ]
       },
       "technologies": ["Flutter", "Firebase", "Phone Auth"]
@@ -114,12 +114,12 @@
       "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
       "images": {
         "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.png",
+        "tile": "/images/projects/ghirasti/tile.webp",
         "otherImages": [
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png"
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp"
         ]
       },
       "technologies": ["Flutter", "Firebase", "Phone Auth"]
@@ -131,12 +131,12 @@
       "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
       "images": {
         "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.png",
+        "tile": "/images/projects/ghirasti/tile.webp",
         "otherImages": [
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png"
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp"
         ]
       },
       "technologies": ["Flutter", "Firebase", "Phone Auth"]
@@ -148,12 +148,12 @@
       "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
       "images": {
         "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.png",
+        "tile": "/images/projects/ghirasti/tile.webp",
         "otherImages": [
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png"
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp"
         ]
       },
       "technologies": ["Flutter", "Firebase", "Phone Auth"]
@@ -165,12 +165,12 @@
       "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
       "images": {
         "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.png",
+        "tile": "/images/projects/ghirasti/tile.webp",
         "otherImages": [
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png",
-          "/images/projects/ghirasti/tile.png"
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp",
+          "/images/projects/ghirasti/tile.webp"
         ]
       },
       "technologies": ["Flutter", "Firebase", "Phone Auth"]
@@ -182,7 +182,7 @@
       "title": "JazzCash Payment Gateway",
       "tagLine": "Lorem ipsum dolor sit amet",
       "description": "To implement third-party payment gateways which do not natively support flutter by means of platform-specific code using Platform Channels in Flutter.",
-      "image": "/images/posts/jazz_cash_payment_gateway.png",
+      "image": "/images/posts/jazz_cash_payment_gateway.webp",
       "link": "https://medium.com/flutter-by-wajahat-shehriyar/flutter-payment-gateway-integration-jazzcash-redirect-api-using-platform-channels-d56f3cbb9a21"
     }
   ]

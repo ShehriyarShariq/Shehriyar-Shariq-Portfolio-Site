@@ -10,7 +10,7 @@ const POSTS = [
     tagLine: "Lorem ipsum dolor sit amet",
     description:
       "To implement third-party payment gateways which do not natively support flutter by means of platform-specific code using Platform Channels in Flutter.",
-    image: "/images/posts/jazz_cash_payment_gateway.png",
+    image: "/images/posts/jazz_cash_payment_gateway.webp",
     link: "https://medium.com/flutter-by-wajahat-shehriyar/flutter-payment-gateway-integration-jazzcash-redirect-api-using-platform-channels-d56f3cbb9a21",
   },
 ];
