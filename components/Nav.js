@@ -25,7 +25,7 @@ export default function Nav() {
     <>
       <header
         className={
-          "h-[50px] sm:h-[120px] flex flex-row justify-between px-[8%] sm:px-[5%] mt-[20px] sm:mt-[50px] items-center" +
+          "h-[50px] sm:h-[120px] flex flex-row justify-between px-[8%] sm:px-[5%] mt-[20px] md:mt-[50px] items-center" +
           (isSolid
             ? " w-full h-[90px] mt-[0px] py-[20px] md:py-0 md:mt-[20px] z-20 fixed top-0 bg-black_alt md:relative md:bg-transparent "
             : "")

@@ -1,9 +1,10 @@
 import React from "react";
 import OverlappingCharacter from "./OverlappingCharacter";
+import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full h-full pl-[15%] pr-[10%] md:pl-[12%] md:pr-[10%] lg:px-[12%] overflow-auto grid md:grid-cols-[auto_1fr] md:justify-between sm:items-center gap-8 sm:gap-10">
+    <div className="w-full h-full pl-[15%] pr-[10%] md:pl-[12%] md:pr-[10%] lg:px-[12%] overflow-auto grid md:grid-cols-[auto_1fr] md:justify-between sm:items-center gap-4 sm:gap-10">
       <div>
         <div className="text-white text-lg sm:text-4xl mb-2 sm:mb-6">
           Hi, I am
@@ -43,10 +44,18 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="/images/me.png"
         className="w-[60%] md:w-[100%] xl:w-[70%] mx-auto pr-[5%] md:pr-0"
-      />
+      /> */}
+      <div className="w-[60%] md:w-[100%] xl:w-[70%] h-[250px] sm:h-[400px] md:h-full mx-auto pr-[5%] md:pr-0 relative">
+        <Image
+          src="/images/me.png"
+          layout="fill"
+          objectFit="contain"
+          priority
+        />
+      </div>
     </div>
   );
 }
