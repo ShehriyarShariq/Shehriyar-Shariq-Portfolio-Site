@@ -6,6 +6,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Orienta", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: "#05FDD8",
