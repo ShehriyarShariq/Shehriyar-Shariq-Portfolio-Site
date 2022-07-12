@@ -53,7 +53,7 @@ export default function Hero() {
         style={{ transform: "rotateY(180deg)" }}
       >
         <Image
-          src="/images/me.png"
+          src="/images/me.webp"
           layout="fill"
           objectFit="contain"
           priority
