@@ -22,7 +22,7 @@ const Layout = ({ children, router }) => {
     <>
       <Meta />
       <div className="relative">
-        <Background />
+        {/* <Background /> */}
         <Providers>{children}</Providers>
       </div>
     </>
