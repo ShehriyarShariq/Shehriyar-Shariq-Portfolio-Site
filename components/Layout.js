@@ -5,11 +5,9 @@ import { SidebarNavVisibilityProvider } from "../contexts/SidebarNavVisibilityCo
 import { ProjectDetailsDialogProvider } from "../contexts/ProjectDetailsDialogContext";
 import dynamic from "next/dynamic";
 
-const Background = dynamic(() =>
-  import(() => import("./Background"), {
-    ssr: false,
-  })
-);
+const Background = dynamic(() => import("./Background"), {
+  ssr: false,
+});
 
 const Providers = ({ children }) => {
   return (
