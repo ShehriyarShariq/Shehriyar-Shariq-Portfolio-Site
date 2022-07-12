@@ -44,18 +44,21 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="/images/me.png"
         className="w-[60%] md:w-[100%] xl:w-[70%] mx-auto pr-[5%] md:pr-0"
-      />
-      {/* <div className="w-[60%] md:w-[100%] xl:w-[70%] h-[250px] sm:h-[400px] md:h-full mx-auto pr-[5%] md:pr-0 relative">
+      /> */}
+      <div
+        className="w-[60%] md:w-[100%] xl:w-[70%] h-[250px] sm:h-[400px] md:h-full mx-auto pr-[5%] md:pr-0 relative"
+        style={{ transform: "rotateY(180deg)" }}
+      >
         <Image
           src="/images/me.png"
           layout="fill"
           objectFit="contain"
           priority
         />
-      </div> */}
+      </div>
     </div>
   );
 }
