@@ -3,12 +3,21 @@ import { useWindowScroll } from "../hooks/useWindowScroll";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import About from "../components/About";
-import MyWork from "../components/MyWork";
-import MoreProjects from "../components/MoreProjects";
+// import MyWork from "../components/MyWork";
+// import MoreProjects from "../components/MoreProjects";
 import BlogPosts from "../components/BlogPosts";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ScrollToTopBtn from "../components/ScrollToTopBtn";
+import dynamic from "next/dynamic";
+
+const MyWork = dynamic(() => import("../components/MyWork"), {
+  ssr: false,
+});
+
+const MoreProjects = dynamic(() => import("../components/MoreProjects"), {
+  ssr: false,
+});
 
 function PortfolioSite() {
   const scrollTop = useWindowScroll();
