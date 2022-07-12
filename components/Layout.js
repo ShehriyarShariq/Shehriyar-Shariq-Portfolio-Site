@@ -1,8 +1,15 @@
 import Meta from "./Meta";
 import { withRouter } from "next/router";
-import Background from "./Background";
+// import Background from "./Background";
 import { SidebarNavVisibilityProvider } from "../contexts/SidebarNavVisibilityContext";
 import { ProjectDetailsDialogProvider } from "../contexts/ProjectDetailsDialogContext";
+import dynamic from "next/dynamic";
+
+const Background = dynamic(() =>
+  import(() => import("./Background"), {
+    ssr: false,
+  })
+);
 
 const Providers = ({ children }) => {
   return (
