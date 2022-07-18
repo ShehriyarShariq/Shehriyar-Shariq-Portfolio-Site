@@ -38,7 +38,7 @@ function ProjectDetailsDialog({ details, hide }) {
             width="100%"
             height="100%"
             className="absolute top-0 rounded-t-xl md:rounded-t-3xl object-contain"
-            src={details["video"]}
+            src={details["videos"][0]}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -79,7 +79,7 @@ function ProjectDetailsDialog({ details, hide }) {
           <p className="text-white py-5 md:py-8 text-lg">
             {details["description"]}
           </p>
-          <div className="w-full relative">
+          <div className="w-full relative h-0 pb-[60%]">
             <ResponsiveContainer
               carouselRef={imagesRef}
               render={(parentWidth, carouselRef) => {
@@ -88,11 +88,12 @@ function ProjectDetailsDialog({ details, hide }) {
                 // if (parentWidth <= 1080) currentVisibleSlide = 1;
                 return (
                   <StackedCarousel
+                    height={parentWidth}
                     ref={carouselRef}
                     slideComponent={Card}
                     slideWidth={parentWidth < 800 ? parentWidth - 80 : 750}
                     carouselWidth={parentWidth}
-                    data={data}
+                    data={details["images"]["otherImages"]}
                     currentVisibleSlide={currentVisibleSlide}
                     maxVisibleSlide={5}
                     useGrabCursor
@@ -128,23 +129,11 @@ function ProjectDetailsDialog({ details, hide }) {
 
 const Card = React.memo(function (props) {
   const { data, dataIndex } = props;
-  const { cover } = data[dataIndex];
+  const cover = data[dataIndex];
   return (
-    <div
-      style={{
-        width: "100%",
-        height: 300,
-        userSelect: "none",
-      }}
-      className="my-slide-component"
-    >
+    <div className="my-slide-component w-[60%] h-0 pb-[60%] select-none mx-auto relative">
       <img
-        style={{
-          height: "100%",
-          width: "100%",
-          objectFit: "cover",
-          borderRadius: 0,
-        }}
+        className="w-full h-full absolute top-1/2 left-0 object-cover rounded-none -translate-y-1/2"
         draggable={false}
         src={cover}
       />

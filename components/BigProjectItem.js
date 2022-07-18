@@ -18,10 +18,10 @@ function BigProjectItem({ isLeftAligned, project }) {
           (isLeftAligned ? "" : " md:ml-[-20px] ")
         }
       >
-        <img src={project["images"]["logo"]} className="h-[20%]" />
+        {/* <img src={project["images"]["logo"]} className="h-[20%]" /> */}
         <img
           src={project["images"]["tile"]}
-          className="h-[75%] object-contain object-bottom md:object-cover"
+          className="w-full h-full object-contain object-bottom md:object-contain"
         />
       </div>
       <div
