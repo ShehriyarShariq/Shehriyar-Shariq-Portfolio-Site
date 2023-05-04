@@ -1,0 +1,746 @@
+[
+  {
+    "id": "insidartours",
+    "title": "InsidARTours",
+    "tagLine": "Tour Exploration Meets Fun",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": true,
+    "description": [
+      "InsidARtours offers the users to view experiences and tours created through the dashboard, on the App using a navigation functionality offerred through a map.",
+      "The experiences can contain multiple stops and the navigation between them is done live within the app with proper routes existing between them. Augmented Reality markers are also present in the tours where scanning the real-world allows one to see the augmented marker in real-life.",
+      "For web development, HTML/CSS/Javascript/React.js/Tailwind.css were used for the Front End and Django (Python) was used for the Back End. For Mobile App Development, Flutter (Dart) has been used to develop a Cross-platform app for both Android and IOS. Firebase has been used for Authentication, Database, Storage, and Hosting."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fimages%2Fimage5.png"
+      ],
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fmobile%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fmobile%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fmobile%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fmobile%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fmobile%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/insidartours%2Fmobile%2Fimage5.png"
+      ]
+    },
+    "technologies": [
+      "React JS",
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase",
+      "Mapbox",
+      "Full Stack Web Development",
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "AR Core",
+      "Mapbox",
+      "Mobile App Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "event_tracker",
+    "title": "Event Tracker",
+    "tagLine": "Find The Event For You",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": true,
+    "description": [
+      "A platform that reads the user's Instagram feed and extracts event-related information from the posts.",
+      "Uses NLP to identify relevant text in images and assigns them to the correct label. This specific functionality was working on by a teammate.",
+      "The outcome of the project was a Frontend developed using React/Next.js which displays a list of events as they are scraped from the relevant users and saved in the database. There is an admin and user side to the Frontend. The admin can add/delete/update accounts to scrape and can also edit and modify existing events. The added accounts are then relatively scraped from the backend server. The scraper work as a CRON task and performs the scraping and then calls the ML script to extract the relevant event information from the downloaded posts."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage6.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage7.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/event_tracker%2Fimages%2Fimage8.png"
+      ]
+    },
+    "technologies": [
+      "Next.js",
+      "React JS",
+      "Typescript",
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Redux",
+      "Python",
+      "Django",
+      "REST APIs",
+      "AWS",
+      "Full Stack Web Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "roam",
+    "title": "Roam",
+    "tagLine": "Interactive Travel Planner",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "A web portal based on Mapbox that showcases the best travel/adventure destinations available in Pakistan with a particular focus on the offerings of Gilgit Baltistan.",
+      "A community of adventurers and a rich database of experiences can be had in Pakistan and guidelines against the same. All this is to be offered with an easy-to-absorb interactive map.",
+      "A web platform was developed using HTML/CSS/Javascript/Next.js/React.js/Tailwind.css for the Front End and Django (Python) for the Backend. Firebase was used for Authentication, Database, Storage, and Hosting. Mapbox was used for displaying and customizing the map."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage10.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage11.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage12.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage6.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage7.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage8.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/roam%2Fimages%2Fimage9.png"
+      ]
+    },
+    "technologies": [
+      "Next.js",
+      "React JS",
+      "HTML5",
+      "Tailwind CSS",
+      "Javascript",
+      "Redux",
+      "Full Stack Web Development",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase",
+      "Mapbox"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "cheerio",
+    "title": "Cheerio",
+    "tagLine": "Employee Recognition Platform",
+    "isWeb": false,
+    "isPersonal": true,
+    "isMajor": true,
+    "description": [
+      "An employee recognition platform where employees can cheer for other employees based on certain traits.",
+      "Humans are social beings and they crave recognition from the people around them for the work they perform. There existed a gap in the market for solutions that provided a platform for people within an organisation to cheer for their peers, to uplift them for their contributions and their role in the organisation. Seeing this as an opportunity, my team and I came up with Cheerio as the solution.",
+      "The outcome was an Android App developed using mobile app development in Flutter (Dart) (MVVM architecture). Firebase was used for the server-less backend, with Authentication, Database, Storage, Cloud Functions, and Cloud Messaging being used as the services. GCP was used for accessing Compute Engine to run the Redis server."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Ftile.png",
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/cheerio%2Fimages%2Fimage6.png"
+      ]
+    },
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "Firebase",
+      "SQLite",
+      "Android",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Redis",
+      "GCP",
+      "Mobile App Development"
+    ],
+    "repo": "https://github.com/ShehriyarShariq/EmpRecogPlat"
+  },
+  {
+    "id": "music_player",
+    "title": "Music Player",
+    "tagLine": "Music Streaming Platform",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "A simple music player based on the Spotify theme which can stream music from a server.",
+      "The outcome was a Responsive Web App developed using HTML/CSS/Javascript/React.js for the Front End and Django (Python) for the Back End. Firebase was used to store references to the music and the artists, albums, and genres associated with them. Firebase was also used for Authentication, Storage, and Hosting."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage6.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage7.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage8.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/music_app%2Fimages%2Fimage9.png"
+      ]
+    },
+    "technologies": [
+      "React JS",
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "Full Stack Web Development",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase",
+      "Web Sockets"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "journal_app",
+    "title": "Journal App",
+    "tagLine": "Live Journal Editor",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "The project was a journal web app which can be used for making personal journals and sharing them with the world using a dynamic URL created for each journal. Each journal offers live document editing.",
+      "The outcome was a web app that was developed using HTML/CSS/Javascript/React.js for the Front End and Django (Python) for the Back End. Firebase was used for Authentication, Database, and Storage. Live document editing functionality was added using polling and periodic pushes to the database."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage6.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/journal_app%2Fimages%2Fimage7.png"
+      ]
+    },
+    "technologies": [
+      "React JS",
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "Full Stack Web Development",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "elaj",
+    "title": "Elaj",
+    "tagLine": "Telemedicine at your fingertips",
+    "isWeb": false,
+    "isPersonal": true,
+    "isMajor": false,
+    "description": [
+      "The project was a telemedicine app that was the need of the time during COVID in Pakistan. The app connected medical professionals with patients through online video sessions.",
+      "The outcome was an Android app developed using mobile app development in Flutter (Dart) (MVVM Architecture). Django (Python) was used for the Back End REST API. Firebase was used for Authentication, Database, Cloud Messaging, and Storage. Agora was used for the video sessions. GCP was used as the cloud platform."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/elaj%2Ftile.png",
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/elaj%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/elaj%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/elaj%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/elaj%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/elaj%2Fimages%2Fimage4.png"
+      ]
+    },
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "Firebase",
+      "SQLite",
+      "Android",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Mobile App Development"
+    ],
+    "repo": "https://github.com/ShehriyarShariq/ElajApp"
+  },
+  {
+    "id": "ghirasti",
+    "title": "Ghirasti",
+    "tagLine": "Empowering Homemakers",
+    "isWeb": false,
+    "isPersonal": true,
+    "isMajor": false,
+    "description": [
+      "Ghirasti empowers women who have been out of the industry for a long time by allowing them to make use of their current leisure time more productively while also being able to financially take care of their personal needs.",
+      "The android app was developed using mobile app development in Flutter (Dart) (MVVM architecture using Bloc). Firebase was used for Authentication (Phone Auth), Database, and Storage as the server-less Back End."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/ghirasti%2Ftile.png",
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/ghirasti%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/ghirasti%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/ghirasti%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/ghirasti%2Fimages%2Fimage3.png"
+      ]
+    },
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "Firebase",
+      "SQLite",
+      "Android",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Mobile App Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "filter_alpha",
+    "title": "Filter Alpha",
+    "tagLine": "Stock Management App",
+    "isWeb": false,
+    "isPersonal": true,
+    "isMajor": false,
+    "description": [
+      "The purpose of the app is to let stock investors be aware of the shifts in the stocks of the companies they are interested in and buy and sell stocks based on the opinions of an expert stock trader. The app supports both day-trading and long-term trading.",
+      "The outcome was an Android App developed using Mobile App Development in Flutter (Dart) (MVVM architecture. The Back End was made in Django (Python) for the REST API and Firebase was used for Authentication, Database, Cloud Messaging, and Storage. An admin dashboard was also created for the project using HTML/CSS/Javascript/React.js/Django. AWS EC2 was used for running the Python script which would periodically poll the stock exchange server for updated rates."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fimages%2Fimage4.png"
+      ],
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fmobile%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fmobile%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fmobile%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fmobile%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/filter_alpha%2Fmobile%2Fimage4.png"
+      ]
+    },
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "Python",
+      "Django",
+      "Mobile App Development",
+      "Full Stack Web Development",
+      "REST APIs",
+      "Android",
+      "Firebase",
+      "React JS",
+      "Server-side Scripting"
+    ],
+    "repo": "https://github.com/ShehriyarShariq/Filter-Alpha"
+  },
+  {
+    "id": "inventory_tracker",
+    "title": "MNE",
+    "tagLine": "Inventory Management App",
+    "isWeb": false,
+    "isPersonal": true,
+    "isMajor": false,
+    "description": [
+      "The project was an Inventory Management System for the purpose of recording individual bags of chillies sold to different customers/groups.",
+      "The outcome was an Android App developed using Mobile App Development in Flutter (Dart) (MVVM architecture). For the Back End, Django (Python) was used for the REST API and Firebase was used for Authentication, Database, and Storage. The web admin dashboard for the platform was developed using HTML/CSS/Javascript/React.js/Django."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fimages%2Fimage5.png"
+      ],
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fmobile%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fmobile%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fmobile%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fmobile%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/inventory_tracker%2Fmobile%2Fimage4.png"
+      ]
+    },
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "Android",
+      "Mobile App Development",
+      "React JS",
+      "Javascript",
+      "CSS3",
+      "HTML5",
+      "Python",
+      "Django",
+      "Full Stack Web Development",
+      "REST APIs",
+      "Firebase",
+      "Server-side Scripting"
+    ],
+    "repo": "https://github.com/ShehriyarShariq/Inventory-Management-Platform"
+  },
+  {
+    "id": "injalink",
+    "title": "InjaLink",
+    "tagLine": "All Links in One Place",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "The platform allows for the creation of dynamic links which are for the purpose of managing your respective links and sharing them with the public.",
+      "The outcome was a website with the Web Development done using HTML/CSS/Javascript for the Front End and Django (Python) for the Back End. Firebase was used for Authentication, Database, and Storage."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/injalink%2Fimages%2Fimage6.png"
+      ]
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase",
+      "Full Stack Web Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "stock_availability",
+    "title": "Stock Availability Scanner",
+    "tagLine": "Online Store Item Stock Tracker",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "The web app allows one to keep track of the stock availability of their added products. The scanner periodically scans for updated stock status and sends an email based on the subscription whenever the stock status is changed.",
+      "The outcome was a platform developed using HTML/CSS/Javascript/Bootstrap for the Front End and Django (Python) for the Back End. Firebase was used for the Database. A server running the python script would periodically run using CRON to update the status of the added products."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/stock_availability%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/stock_availability%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/stock_availability%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/stock_availability%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/stock_availability%2Fimages%2Fimage3.png"
+      ]
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Bootstrap",
+      "Full Stack Web Development",
+      "Python",
+      "Django",
+      "Firebase",
+      "REST APIs"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "healthcare_chatbot",
+    "title": "Healthcare Chatbot",
+    "tagLine": "Symptom Diagnosis Chatbot",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "An easy-to-use chatbot that would ask the patient a stream of questions and based on the answers, different question paths would be selected.",
+      "The user was asked about their areas of pain in the body by means of an interactive human body 2D cross-section. Based on the answers, a KNN model was used to predict the symptoms that the patient might be suffering from and an option to schedule a session with a doctor who can make use of the data to better diagnose the patient.",
+      "The outcome was a single-page Web Application built using Django (Python) with the Front End in HTML/CSS/Javascript. Python was used for scripting and modifying the dataset for model execution on the server. Firebase was used to store the model instances/variations and the outcomes."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/healthcare_chatbot%2Fimages%2Fimage6.png"
+      ]
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Full Stack Web Development",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Chatbot",
+      "Firebase"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "iran_top_5",
+    "title": "Iran Top 5",
+    "tagLine": "Trending Articles Viewer",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "The web platform and the equivalent Android App were for listing articles and blogs written through the Admin Dashboard of the platform to be easily readable by the visitors of that page.",
+      "The outcome of the project was a Website developed in Django Web Framework (Python) with HTML/CSS/Javascript used for the Front End. There was also an Android app that was this developed in Java. Firebase was used for Authentication, Database, and Storage of media files."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage10.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage11.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage6.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage7.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage8.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fimages%2Fimage9.png"
+      ],
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fmobile%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fmobile%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fmobile%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fmobile%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fmobile%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/iran_top5%2Fmobile%2Fimage5.png"
+      ]
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase",
+      "Full Stack Web Development",
+      "Java",
+      "Android",
+      "Mobile App Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "lahore_covid",
+    "title": "Lahore COVID Visualization",
+    "tagLine": "Tracking Covid in Lahore",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "A website that showed the spread of COVID primarily focused on Lahore, Pakistan.",
+      "The stats were loaded on top of a map using Mapbox. It also had the ability to load tweets from Twitter using a scraper written in Python for hashtags relevant to Twitter.",
+      "A website that was built using Django Web Framework (Python) which used HTML/CSS/Javascript for the Front End. The Mapbox API was used to display and customize the map. The map was fully interactable and the data was loaded from Firebase using JSON as the data format for information exchange."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Ftile.png",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/lahore_covid_visualization%2Fimages%2Fimage5.png"
+      ]
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Javascript",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Firebase",
+      "Full Stack Web Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "orfol",
+    "title": "Orfol",
+    "tagLine": "Lost and Found",
+    "isWeb": false,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "Orfol is a mobile-based platform for reporting lost and found items within a community. It's for the community by the community.",
+      "The outcome was an Android App developed using Mobile App Development in Flutter (Dart) (MVVM Architecture). The API was developed using Django (Python). Firebase was used for Authentication, Database, and Storage."
+    ],
+    "videos": [],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Ftile.png",
+      "mobile": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage0.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage1.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage2.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage3.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage4.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage5.png",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/orfol%2Fimages%2Fimage6.png"
+      ]
+    },
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "Firebase",
+      "Mobile App Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "rsync",
+    "title": "Rsync",
+    "tagLine": "Mobile Remote File Synchronizer",
+    "isWeb": false,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "Rsync, an Android app uses the rsync utility for efficient synchronization of the file system between a device and the remote server.",
+      "Rsync requires root access to the device in order to efficiently transfer and synchronize files between a computer and a storage drive and across networked computers by comparing the modification times and sizes of files."
+    ],
+    "videos": [],
+    "images": {
+      "tile": ""
+    },
+    "technologies": ["Java", "Android", "Rsync", "Mobile App Development"],
+    "repo": ""
+  },
+  {
+    "id": "meet_bot",
+    "title": "MeetBot",
+    "tagLine": "Meeting Management Made Easy",
+    "isWeb": false,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "Create meetings and invite people using their emails. The meeting setter would then set an email and send a reminder when the meeting time comes.",
+      "The outcome was an Android App in Java with a Dashboard created using vanilla HTML/CSS/Javascript for the Front End and Django (Python) for the Back End. A script was written in Python to constantly poll received emails for a particular hardcoded email accessed using IMAP."
+    ],
+    "videos": [],
+    "images": {
+      "tile": ""
+    },
+    "technologies": [
+      "Java",
+      "Android",
+      "Mobile App Development",
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Python",
+      "Django",
+      "Firebase",
+      "Full Stack Web Development"
+    ],
+    "repo": ""
+  },
+  {
+    "id": "bleauprint",
+    "title": "BleauPrint",
+    "tagLine": "Live and Dynamic Newspaper",
+    "isWeb": true,
+    "isPersonal": false,
+    "isMajor": false,
+    "description": [
+      "A live daily newspaper which is easily editable and customizable.",
+      "Text and images can easily be plugged into various boxes such that the newspaper editor can easily edit the newspaper based on the data populated for the current day using JSON.",
+      "The outcome was a Web app in Django Web Framework where HTML/CSS/Javascript was used for the Front End. Firebase was used for saving the configurations for each date. The data was transmitted and read in JSON format from the database. The open weather map REST API was used for getting the live weather data in the newspaper."
+    ],
+    "videos": [
+      "https://www.youtube.com/embed/OiL4djq0xFg?controls=0",
+      "https://www.youtube.com/embed/DYsh5J00za8?controls=0"
+    ],
+    "images": {
+      "tile": "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/bleauprint%2Ftile.webp",
+      "web": [
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/bleauprint%2Fimages%2Fimage0.webp",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/bleauprint%2Fimages%2Fimage1.webp",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/bleauprint%2Fimages%2Fimage2.webp",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/bleauprint%2Fimages%2Fimage3.webp",
+        "https://storage.googleapis.com/portfoliosite-9335f.appspot.com/bleauprint%2Fimages%2Fimage4.webp"
+      ]
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Python",
+      "Django",
+      "JSON",
+      "Firebase",
+      "Full Stack Web Development"
+    ],
+    "repo": ""
+  }
+]

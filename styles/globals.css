@@ -17,3 +17,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.stacked-carousel-responsive-container {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.react-stacked-center-carousel {
+  height: 60% !important;
+}

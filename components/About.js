@@ -1,11 +1,11 @@
-import React from "react";
-import OverlappingCharacter from "./OverlappingCharacter";
-import Technologies from "./Technologies";
-import DATA from "../public/files/data.json";
+import React from 'react'
+import OverlappingCharacter from './OverlappingCharacter'
+import Technologies from './Technologies'
+import DATA from '../public/files/data.json'
 
 function About() {
   return (
-    <div className="w-full h-full px-[8%] md:px-[10%]">
+    <div id="aboutMe" className="w-full h-full px-[8%] md:px-[10%]">
       <div className="text-3xl sm:text-5xl text-center sm:text-left mb-6 sm:mb-8">
         <span className="text-primary whitespace-nowrap">
           <OverlappingCharacter
@@ -23,11 +23,11 @@ function About() {
         </span>
       </div>
       <p className="text-white sm:text-lg md:text-xl lg:text-xl mb-6">
-        {DATA["professional_profile"]}
+        {DATA['professional_profile']}
       </p>
       <Technologies />
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

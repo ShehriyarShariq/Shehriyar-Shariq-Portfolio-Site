@@ -60,7 +60,6 @@
             "VSCode",
             "Android Studio",
             "Docker",
-            "Kubernetes",
             "Git/Github/Gitlab",
             "Terminal"
           ]
@@ -68,118 +67,22 @@
       ]
     }
   ],
-  "major_projects": [
-    {
-      "id": "bleauprint",
-      "title": "BlearPrint",
-      "tagLine": "Live and Dynamic Newspaper",
-      "description": "BleauPrint is a project which allows ",
-      "video": "https://www.youtube.com/embed/OiL4djq0xFg?controls=0",
-      "videos": [
-        "https://www.youtube.com/embed/OiL4djq0xFg?controls=0",
-        "https://www.youtube.com/embed/DYsh5J00za8?controls=0"
-      ],
-      "images": {
-        "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/bleauprint/tile.webp",
-        "otherImages": [
-          "/images/projects/bleauprint/images/image1.webp",
-          "/images/projects/bleauprint/images/image2.webp",
-          "/images/projects/bleauprint/images/image0.webp",
-          "/images/projects/bleauprint/images/image3.webp",
-          "/images/projects/bleauprint/images/image4.webp"
-        ]
-      },
-      "technologies": ["Flutter", "Firebase", "Phone Auth"]
-    },
-    {
-      "id": "ghirasti",
-      "title": "Ghirasti",
-      "tagLine": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-      "images": {
-        "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/bleauprint/tile.webp",
-        "otherImages": [
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp"
-        ]
-      },
-      "technologies": ["Flutter", "Firebase", "Phone Auth"]
-    }
-  ],
-  "other_projects": [
-    {
-      "title": "Ghirasti",
-      "tagLine": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-      "images": {
-        "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.webp",
-        "otherImages": [
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp"
-        ]
-      },
-      "technologies": ["Flutter", "Firebase", "Phone Auth"]
-    },
-    {
-      "title": "Ghirasti",
-      "tagLine": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-      "images": {
-        "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.webp",
-        "otherImages": [
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp"
-        ]
-      },
-      "technologies": ["Flutter", "Firebase", "Phone Auth"]
-    },
-    {
-      "title": "Ghirasti",
-      "tagLine": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-      "images": {
-        "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.webp",
-        "otherImages": [
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp"
-        ]
-      },
-      "technologies": ["Flutter", "Firebase", "Phone Auth"]
-    },
-    {
-      "title": "Ghirasti",
-      "tagLine": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "video": "https://www.youtube-nocookie.com/embed/YE7VzlLtp-4?controls=0",
-      "images": {
-        "logo": "/images/projects/ghirasti/logo.png",
-        "tile": "/images/projects/ghirasti/tile.webp",
-        "otherImages": [
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp",
-          "/images/projects/ghirasti/tile.webp"
-        ]
-      },
-      "technologies": ["Flutter", "Firebase", "Phone Auth"]
-    }
+  "project_tags": [
+    "Flutter",
+    "Python",
+    "Django",
+    "Mobile App Development",
+    "Full Stack Web Development",
+    "Javascript",
+    "Typescript",
+    "Next.js",
+    "React JS",
+    "Tailwind CSS",
+    "REST APIs",
+    "Firebase",
+    "AWS",
+    "GCP",
+    "Java"
   ],
   "blog_posts": [
     {

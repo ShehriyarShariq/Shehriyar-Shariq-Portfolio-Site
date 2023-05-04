@@ -1,9 +1,12 @@
-import React from "react";
-import OverlappingCharacter from "./OverlappingCharacter";
+import React from 'react'
+import OverlappingCharacter from './OverlappingCharacter'
 
 function Contact() {
   return (
-    <div className="w-full h-full px-[8%] md:px-[10%] mt-0 md:mt-24">
+    <div
+      id="contactMe"
+      className="w-full h-full px-[8%] md:px-[10%] mt-0 md:mt-24"
+    >
       <div className="text-3xl sm:text-5xl text-center mb-6 sm:mb-10">
         <span className="text-primary whitespace-nowrap">
           <OverlappingCharacter
@@ -60,7 +63,7 @@ function Contact() {
         Send me a message
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact
