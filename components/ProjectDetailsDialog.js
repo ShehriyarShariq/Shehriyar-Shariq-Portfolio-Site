@@ -79,7 +79,13 @@ function ProjectDetailsDialog({ details, hide }) {
                 src="/images/icons/github.svg"
                 className="w-7 invert-[100%] sepia-[100%] saturate-[2%] hue-rotate-[189deg] brightness-[0%] contrast-[101%] md:filter-none group-hover:invert-[100%] group-hover:sepia-[100%] group-hover:saturate-[2%] group-hover:hue-rotate-[189deg] group-hover:brightness-[0%] group-hover:contrast-[101%]"
               />
-              <span>
+              <span
+                onClick={() => {
+                  if ('repo' in details && details['repo'].length > 0) {
+                    window.open(details['repo'], '_blank')
+                  }
+                }}
+              >
                 {!('repo' in details) || details['repo'].length == 0
                   ? 'Confidential'
                   : 'View Repository'}
