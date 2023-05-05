@@ -14,6 +14,13 @@ function RegularProjectItem({ isLeftAligned, project }) {
       onTouchStart={() => {}}
       onClick={() => showProjectDetails(project)}
     >
+      {project['isPersonal'] ? (
+        <div className="absolute top-0 right-[5%] h-20 w-16 rounded-b-lg bg-white bg-opacity-75 z-20 flex items-center justify-center">
+          <img src="/images/logo.svg" className="h-full sm:h-3/4 select-none" />
+        </div>
+      ) : (
+        <></>
+      )}
       <div className="w-full h-full absolute top-0 left-0">
         <div className="w-full h-full bg-transparent_gray bg-opacity-10 backdrop-blur-sm flex flex-col justify-between items-center">
           {/* <img src={project["images"]["logo"]} className="h-[20%]" /> */}
