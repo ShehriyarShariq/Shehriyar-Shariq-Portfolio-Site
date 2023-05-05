@@ -144,6 +144,62 @@
     "repo": ""
   },
   {
+    "id": "snap_share",
+    "title": "SnapShare",
+    "tagLine": "Galleries for the World",
+    "isWeb": true,
+    "isPersonal": true,
+    "isMajor": false,
+    "description": [
+      "The web platform provides a way to upload images to a user-specific gallery. The user can then share their gallery with the world with public access.",
+      "It makes use of Node.js/Express JS for the Backend. MongoDB has been used as the Document store database (NoSQL). Next.js/React.js/Tailwind CSS have been used for the frontend (Coming Soon)."
+    ],
+    "videos": [],
+    "images": {
+      "tile": ""
+    },
+    "technologies": [
+      "Node.js",
+      "Express JS",
+      "Redis",
+      "REST APIs",
+      "Javascript",
+      "Next.js",
+      "React JS",
+      "Typescript",
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS"
+    ],
+    "repo": "https://github.com/ShehriyarShariq/SnapShare"
+  },
+  {
+    "id": "weather_api",
+    "title": "Weather API",
+    "tagLine": "Efficient Weather API",
+    "isWeb": true,
+    "isPersonal": true,
+    "isMajor": false,
+    "description": [
+      "The API offers an efficient way of fetching weather data based on the current location of the user.",
+      "It makes use of caching, geohashes, and rate-limiting. It makes uses of efficient geo-queries to get cached weather data for a location which might have been fetched before and is near to the requested user location.",
+      "It makes use of the OpenWeatherMap API and provides a rate-limited user access. Node.JS and Express JS were used for the Backend. PostgreSQL has been used for the database, hence, providing support for complex and efficient geo-queries. Redis has been used for caching and for creating the rate-limitation feature."
+    ],
+    "videos": [],
+    "images": {
+      "tile": ""
+    },
+    "technologies": [
+      "Node.js",
+      "Express JS",
+      "Redis",
+      "REST APIs",
+      "Javascript"
+    ],
+    "repo": "https://github.com/ShehriyarShariq/Weather-API"
+  },
+  {
     "id": "cheerio",
     "title": "Cheerio",
     "tagLine": "Employee Recognition Platform",
