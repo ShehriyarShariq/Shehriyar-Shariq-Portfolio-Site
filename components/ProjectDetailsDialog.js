@@ -102,6 +102,7 @@ function ProjectDetailsDialog({ details, hide }) {
               </div>
             ))}
           </div>
+
           <p className="text-white py-5 md:py-8 text-lg">
             {typeof details['description'] != 'string'
               ? details['description'].map((para, index) => (
@@ -111,52 +112,59 @@ function ProjectDetailsDialog({ details, hide }) {
                 ))
               : details['description']}
           </p>
-          <div className="w-full relative h-0 pb-[60%]">
-            <ResponsiveContainer
-              carouselRef={imagesRef}
-              render={(parentWidth, carouselRef) => {
-                let currentVisibleSlide = 0
-                // if (parentWidth <= 1440) currentVisibleSlide = 3;
-                // if (parentWidth <= 1080) currentVisibleSlide = 1;
-                return (
-                  <StackedCarousel
-                    height={parentWidth}
-                    ref={carouselRef}
-                    slideComponent={Card}
-                    slideWidth={parentWidth < 800 ? parentWidth - 80 : 750}
-                    carouselWidth={parentWidth}
-                    data={
-                      details['isWeb']
-                        ? details['images']['web']
-                        : details['images']['mobile']
-                    }
-                    currentVisibleSlide={currentVisibleSlide}
-                    maxVisibleSlide={5}
-                    useGrabCursor
-                  />
-                )
-              }}
-            />
-            <div
-              className="w-12 h-12 rounded-full bg-dark_gray absolute left-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center"
-              onClick={() => {
-                imagesRef.current?.goBack()
-              }}
-            >
-              <img src="/images/icons/arrow_left.png" className="w-1/2 h-1/2" />
-            </div>
-            <div
-              className="w-12 h-12 rounded-full bg-dark_gray absolute right-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center"
-              onClick={() => {
-                imagesRef.current?.goNext(6)
-              }}
-            >
-              <img
-                src="/images/icons/arrow_right.png"
-                className="w-1/2 h-1/2"
+          {'web' in details['images'] || 'mobile' in details['images'] ? (
+            <div className="w-full relative h-0 pb-[60%]">
+              <ResponsiveContainer
+                carouselRef={imagesRef}
+                render={(parentWidth, carouselRef) => {
+                  let currentVisibleSlide = 0
+                  // if (parentWidth <= 1440) currentVisibleSlide = 3;
+                  // if (parentWidth <= 1080) currentVisibleSlide = 1;
+                  return (
+                    <StackedCarousel
+                      height={parentWidth}
+                      ref={carouselRef}
+                      slideComponent={Card}
+                      slideWidth={parentWidth < 800 ? parentWidth - 80 : 750}
+                      carouselWidth={parentWidth}
+                      data={
+                        details['isWeb']
+                          ? details['images']['web']
+                          : details['images']['mobile']
+                      }
+                      currentVisibleSlide={currentVisibleSlide}
+                      maxVisibleSlide={5}
+                      useGrabCursor
+                    />
+                  )
+                }}
               />
+              <div
+                className="w-12 h-12 rounded-full bg-dark_gray absolute left-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center"
+                onClick={() => {
+                  imagesRef.current?.goBack()
+                }}
+              >
+                <img
+                  src="/images/icons/arrow_left.png"
+                  className="w-1/2 h-1/2"
+                />
+              </div>
+              <div
+                className="w-12 h-12 rounded-full bg-dark_gray absolute right-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center"
+                onClick={() => {
+                  imagesRef.current?.goNext(6)
+                }}
+              >
+                <img
+                  src="/images/icons/arrow_right.png"
+                  className="w-1/2 h-1/2"
+                />
+              </div>
             </div>
-          </div>
+          ) : (
+            <></>
+          )}
           <div
             className={
               'text-white text-lg md:text-2xl -mb-[7.5%] ' +
